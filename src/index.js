@@ -3,6 +3,7 @@ import pageLoad from "./page-load";
 import headerDiv from "./components/header";
 import homeBody from "./components/homeBody";
 import menuBody from "./components/menuBody";
+import contactBody from "./components/contactsBody";
 
 pageLoad(headerDiv());
 const body = document.createElement('div');
@@ -20,4 +21,8 @@ homeNav.addEventListener('click', () => {
 
 menuNav.addEventListener('click', () => {
     body.replaceChildren(menuBody());
+});
+
+contactNav.addEventListener('click', () => {
+    body.replaceChildren(contactBody());
 });
