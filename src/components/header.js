@@ -1,5 +1,5 @@
 import './header.css';
-import Logo from './imgs/logo.png'
+import Logo from '../imgs/logo.png'
 
 const header = () => {
     const headerDiv = document.createElement('div');
@@ -18,12 +18,25 @@ const header = () => {
     headerDiv.append(leftSide);
 
     const navUl = document.createElement('ul');
+
     const homeLi = document.createElement('li');
-    homeLi.textContent = 'Home';
+    const homeLiA = document.createElement('a');
+    homeLiA.href = ''
+    homeLiA.textContent = 'Home';
+    homeLi.append(homeLiA);
+
     const menuLi = document.createElement('li'); 
-    menuLi.textContent = 'Menu';
+    const menuLiA = document.createElement('a');
+    menuLiA.href = ''
+    menuLiA.textContent = 'Menu';
+    menuLi.append(menuLiA);
+
     const contactLi = document.createElement('li');
-    contactLi.textContent = 'Contact';
+    const contactLiA = document.createElement('a');
+    contactLiA.href = ''
+    contactLiA.textContent = 'Menu';
+    contactLi.append(contactLiA);
+
     navUl.append(homeLi, menuLi, contactLi);
 
     headerDiv.append(navUl);

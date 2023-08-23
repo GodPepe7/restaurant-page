@@ -5,7 +5,7 @@
     flex-direction: column;
     color: white;
     margin-bottom: 200px;
-    width: clamp(300px, 50%, 750px);
+    width: clamp(450px, 50%, 750px);
     justify-self: center;
     gap: 20px;
 }
@@ -21,4 +21,9 @@ p {
     font-weight: 100;
     font-size: 1.7rem;
     text-align: end;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
