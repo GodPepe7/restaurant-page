@@ -2,7 +2,7 @@ import './menuBody.css';
 
 const menuBody = () => {
     const menuBodyDiv = document.createElement('div');
-    menuBodyDiv.className = 'menu-body';
+    menuBodyDiv.className = 'menu-body body';
 
     const heading = document.createElement('h2');
     heading.textContent = 'Menu';

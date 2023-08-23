@@ -21,20 +21,20 @@ const header = () => {
 
     const homeLi = document.createElement('li');
     const homeLiA = document.createElement('a');
-    homeLiA.href = ''
+    homeLiA.id = 'home-nav'
     homeLiA.textContent = 'Home';
     homeLi.append(homeLiA);
-
+    
     const menuLi = document.createElement('li'); 
     const menuLiA = document.createElement('a');
-    menuLiA.href = ''
+    menuLiA.id = 'menu-nav'
     menuLiA.textContent = 'Menu';
     menuLi.append(menuLiA);
 
     const contactLi = document.createElement('li');
     const contactLiA = document.createElement('a');
-    contactLiA.href = ''
-    contactLiA.textContent = 'Menu';
+    contactLiA.id = 'contact-nav'
+    contactLiA.textContent = 'Contact';
     contactLi.append(contactLiA);
 
     navUl.append(homeLi, menuLi, contactLi);

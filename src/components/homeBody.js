@@ -2,7 +2,7 @@ import './homeBody.css'
 
 const homeBody = () => {
     const homeBodyDiv = document.createElement('div');
-    homeBodyDiv.className = 'home-body';
+    homeBodyDiv.className = 'home-body body';
 
     const heading = document.createElement('h2');
     heading.textContent = 'Original Italian Pizza';

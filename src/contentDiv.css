@@ -14,3 +14,10 @@
     display: grid;
     grid-template-rows: min-content auto;
 }
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
